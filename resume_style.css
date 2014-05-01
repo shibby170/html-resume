@@ -1,0 +1,118 @@
+/** {
+	border: 1px solid black;
+}*/
+
+html {
+	background-color: lightblue;
+}
+
+.container {
+	max-width: 50%;
+	margin: auto;
+}
+
+div {
+	border-radius: 10px;
+}
+
+a {
+
+}
+
+.header {
+	z-index: 1;
+	position: fixed;
+	top: 0;
+	width: 50%;
+	height: 60px;
+	background-color: #668284;
+	margin-bottom: 10px;
+	border-radius: 0 0 10px 10px;
+	color: white;
+	font-weight: 900;
+	box-shadow: 10px 10px 5px #888888;
+}
+
+#name {
+	float: left;
+	margin-left: 5px;
+	font-size: 
+}
+
+#email {
+	float: right;
+	margin-right: 5px;
+	text-decoration: none;
+	color: white;
+}
+
+.main_body {
+	position: relative;
+	margin-top: 80px;
+	width: 100%;
+	margin-bottom: 120px;
+}
+
+#section_1 {
+	border-radius: 10px;
+	margin-bottom: 20px;
+	background-color: #ffff66;
+	padding: 10px;
+	box-shadow: 10px 10px 5px #888888;
+}
+
+#section_2 {
+	border-radius: 10px;
+	margin-bottom: 20px;
+	background-color: #ffff66;
+	padding: 10px;
+	box-shadow: 10px 10px 5px #888888;
+}
+
+#section_3 {
+	border-radius: 10px;
+	margin-bottom: 20px;
+	background-color: #ffff66;
+	padding: 10px;
+	box-shadow: 10px 10px 5px #888888;
+}
+
+footer {
+	position: fixed;
+	bottom: 0;
+	width: 50%;
+	background-color: #668284;
+	border-radius: 10px 10px 0 0;
+	box-shadow: 10px 10px 5px #888888;
+}
+
+.address {
+	float: left;
+	margin-left: 10px;
+	color: white;
+	font-weight: 900;
+}
+
+.links {
+	float: right;
+	margin: 30px 0 10px 0;
+	padding:10px;
+}
+
+.button {
+	padding:10px;
+	margin: 5px;
+	background-color: #446C40;
+	color: white;
+	text-decoration: none;
+	border-radius: 10px;
+}
+
+.button:hover {
+	background-color: lightblue;
+	color: white;
+}
+
+.button:visited {
+	color: yellow;
+}
